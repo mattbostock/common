@@ -2,6 +2,7 @@ package httpgrpc
 
 import (
 	"bytes"
+	"context"
 	"fmt"
 	"io/ioutil"
 	"net"
@@ -15,7 +16,6 @@ import (
 	"github.com/mwitkow/go-grpc-middleware"
 	"github.com/opentracing/opentracing-go"
 	"github.com/sercand/kuberesolver"
-	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
 	"github.com/weaveworks/common/middleware"

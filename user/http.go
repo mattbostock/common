@@ -1,9 +1,8 @@
 package user
 
 import (
+	"context"
 	"net/http"
-
-	"golang.org/x/net/context"
 )
 
 // ExtractFromHTTPRequest extracts the user ID from the request headers and returns

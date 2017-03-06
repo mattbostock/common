@@ -1,7 +1,7 @@
 package user
 
 import (
-	"golang.org/x/net/context"
+	"context"
 
 	"github.com/weaveworks/common/errors"
 )

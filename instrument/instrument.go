@@ -1,12 +1,12 @@
 package instrument
 
 import (
+	"context"
 	"time"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/prometheus/client_golang/prometheus"
-	"golang.org/x/net/context"
 )
 
 // ErrorCode converts an error in to an http-style error-code.

@@ -1,10 +1,10 @@
 package middleware
 
 import (
+	"context"
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
 

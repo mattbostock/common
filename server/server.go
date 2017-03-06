@@ -1,6 +1,7 @@
 package server
 
 import (
+	"context"
 	"flag"
 	"fmt"
 	"net"
@@ -15,7 +16,6 @@ import (
 	"github.com/opentracing-contrib/go-stdlib/nethttp"
 	"github.com/opentracing/opentracing-go"
 	"github.com/prometheus/client_golang/prometheus"
-	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
 	"github.com/weaveworks-experiments/loki/pkg/client"

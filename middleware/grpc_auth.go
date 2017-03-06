@@ -1,7 +1,8 @@
 package middleware
 
 import (
-	"golang.org/x/net/context"
+	"context"
+
 	"google.golang.org/grpc"
 
 	"github.com/weaveworks/common/user"

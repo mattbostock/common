@@ -1,10 +1,10 @@
 package middleware
 
 import (
+	"context"
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
 
