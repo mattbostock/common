@@ -228,7 +228,7 @@ memo = "56079928053f61c0651cb01bc038d4e507f4dab33ec2def7c665877b93c2266c"
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix","windows","windows/registry","windows/svc/eventlog"]
-  revision = "a55a76086885b80f79961eacb876ebd8caf3868d"
+  revision = "da118f7b8e5954f39d0d2130ab35d4bf0e3cb344"
 
 [[projects]]
   branch = "master"
